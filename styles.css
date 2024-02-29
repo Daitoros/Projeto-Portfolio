@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+/* Aqui vai o menu/navbar */
+#navbar{
+    background-color: red;
+    display: block;
+    justify-content: end;
+    /* margin: -20px -10px -50px;
+    padding: 10px; */
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#navbar > ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#navbar > ul > li{
+    display: block;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.background{
+    width: 100%;
+    text-align: center;
+    height: 500px;
+}
+#welcome-section > div{
+    background-color: brown;
+    padding-top: 20%;
+    height: 425px;
+}
+
+
+#projects > .background{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 300px));
+    justify-content: center;
+}
+
+.project-tile{
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+}
+
+/* .planos{
+    padding: 0 0 5px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 10px;
+    justify-content: center;
+}
+.plano-caixa{
+    padding: 0%;
+    width: 100%;
+    margin: 0px auto 30px;
+
+}
+
+#caixa1{
+    grid-column: 1 / 2;
+    justify-self: center;
+    border-radius: 5px;
+}
+#caixa2{
+    grid-column: 2 / 3;
+    justify-self: center;
+    border-radius: 5px;
+}
+#caixa3{
+    grid-column: 3 / 4;
+    justify-self: center;
+    border-radius: 5px;
+} */
