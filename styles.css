@@ -51,7 +51,11 @@ html{
     margin: 20px auto;
     text-align: center;
     width: 100%;
-    border: 5px solid black;
+    border: none;
+}
+img{
+    max-width: 300px;
+    margin: 0%;
 }
 .botao-nome{
     width: 100%;
@@ -59,6 +63,10 @@ html{
     height: 50px;
     z-index: inherit;
     bottom: 0;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contatos .background{
