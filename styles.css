@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* Aqui vai o menu/navbar */
 #navbar{
@@ -24,16 +27,17 @@
     margin: 1rem 2rem 1rem 2rem;
 }
 
-.background{
+.background{ /* configurações para fazer ficar com texto no meio e ficar de acordo com o tamanho da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    text-align: center;
-    height: 700px;
+    height: 100vh;
 }
 
 #welcome-section > div{
-    background-color: brown;
-    padding-top: 20%;
-    height: 425px;
+    background-color: brown;   
 }
 
 /* Projetos */
@@ -41,34 +45,33 @@
     background-color: blue;
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 300px));
-    justify-content: center;
 }
-/* Elementos clicáveis dos projéteis */
+/* Elementos clicáveis dos projetos */
 .project-tile{
     margin: 20px auto;
     text-align: center;
     width: 100%;
-    position: relative;
-    max-height: 300px;
+    border: 5px solid black;
 }
 .botao-nome{
     width: 100%;
-    position: absolute;
     background-color: gray;
-    z-index: relative;
     height: 50px;
+    z-index: inherit;
     bottom: 0;
 }
 
 #contatos .background{
-    padding-top: 20%;
     background-color: gray;
-    height: 400px;
 }
 .social p{
     display: inline-flex;
     justify-content: center;
     margin: 1rem auto auto 1rem;
+}
+
+ion-icon{
+    margin-right: 0.5rem;
 }
 /* .planos{
     padding: 0 0 5px;
