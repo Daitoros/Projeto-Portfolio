@@ -27,28 +27,49 @@
 .background{
     width: 100%;
     text-align: center;
-    height: 500px;
+    height: 700px;
 }
+
 #welcome-section > div{
     background-color: brown;
     padding-top: 20%;
     height: 425px;
 }
 
-
+/* Projetos */
 #projects > .background{
     background-color: blue;
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 300px));
     justify-content: center;
 }
-
+/* Elementos clicáveis dos projéteis */
 .project-tile{
     margin: 20px auto;
     text-align: center;
     width: 100%;
+    position: relative;
+    max-height: 300px;
+}
+.botao-nome{
+    width: 100%;
+    position: absolute;
+    background-color: gray;
+    z-index: relative;
+    height: 50px;
+    bottom: 0;
 }
 
+#contatos .background{
+    padding-top: 20%;
+    background-color: gray;
+    height: 400px;
+}
+.social p{
+    display: inline-flex;
+    justify-content: center;
+    margin: 1rem auto auto 1rem;
+}
 /* .planos{
     padding: 0 0 5px;
     display: grid;
