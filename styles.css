@@ -54,7 +54,7 @@ html{
     border: none;
 }
 img{
-    max-width: 300px;
+    width: 100%;
     margin: 0%;
 }
 .botao-nome{
@@ -80,6 +80,12 @@ img{
 
 ion-icon{
     margin-right: 0.5rem;
+}
+
+@media (max-width: 600px){
+    #welcome-section> div{
+        background-color: green;
+    }
 }
 /* .planos{
     padding: 0 0 5px;
